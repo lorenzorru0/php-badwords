@@ -6,10 +6,17 @@
 }
 
 /* Common */
-body {
+body, button, input {
     padding: .625rem;
 }
 p {
     font-size: 1.5rem;
     padding-bottom: .625rem;
+}
+input {
+    text-align: center;
+}
+button, input {
+    font-size: 1.5rem;
+    margin-bottom: .625rem;
 }
